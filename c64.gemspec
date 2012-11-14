@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "c64"
   gem.require_paths = ["lib"]
   gem.version       = C64::VERSION
+
+  gem.add_dependency "ffi-ncurses", "~> 0.4.0"
 end
